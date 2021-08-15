@@ -1,0 +1,18 @@
+{
+    "name": "ajmeireles/fortguard",
+    "description": "FortGuard is an entire authorization package for CodeIgniter 4",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AJ Merieles"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FortGuard\\": "src/FortGuard/"
+        }
+    }
+}
